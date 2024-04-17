@@ -1,0 +1,34 @@
+const CallBackPain = document.getElementById("callBack")
+setTimeout(()=>{
+    CallBackPain.innerText='10'
+    setTimeout(()=>{
+        CallBackPain.innerText='9'
+        setTimeout(()=>{
+            CallBackPain.innerText='8'
+            setTimeout(()=>{
+                CallBackPain.innerText='7'
+                setTimeout(()=>{
+                    CallBackPain.innerText='6'
+                    setTimeout(()=>{
+                        CallBackPain.innerText='5'
+                        setTimeout(()=>{
+                            CallBackPain.innerText='4'
+                            setTimeout(()=>{
+                                CallBackPain.innerText='3'
+                                setTimeout(()=>{
+                                    CallBackPain.innerText='2'
+                                    setTimeout(()=>{
+                                        CallBackPain.innerText='1'
+                                        setTimeout(()=>{
+                                            CallBackPain.innerText='Happy Independence Day'
+                                        },1000)
+                                    },1000)
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)
